@@ -1,6 +1,6 @@
 # 🎧 BLUE VINYL 레이블 홈페이지 🎹
 
-### << 풀스크린 & 반응형 >>
+### << 풀스크린 & 반응형 >>  https://haeun29.github.io/BLUE_VINYL/
 
 <br>
 

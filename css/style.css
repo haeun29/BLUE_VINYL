@@ -636,8 +636,9 @@ padding-bottom: 20px;
   margin-bottom: 50px;
 }
 
-#section4 .row3 > video { 
+#section4 .row3 > iframe { 
   width: 100%;
+  height: 20vh;
 }
 
 
@@ -729,7 +730,7 @@ padding-bottom: 20px;
 }
 
 #section5 .vinyl.on { 
-  left: 350px;
+  left: 250px;
   transition: 1s ease;
 }
 

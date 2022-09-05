@@ -3,10 +3,10 @@ $(function () {
     //options here
     // responsiveWidth: 1000,
     // sectionsColor: ['gold', '#1abc9c', '#C0C0C0'],
-    anchors: ['BlueVinyl', 'Artist', 'Releases', 'News','Contact'],
+    anchors: ['BlueVinyl', 'Artist', 'Releases', 'News','Contact', 'Footer'],
     menu: '#menu',
     navigation: true,
-    navigationTooltips: ['BlueVinyl', 'Artist', 'Releases', 'News','Contact'],
+    navigationTooltips: ['BlueVinyl', 'Artist', 'Releases', 'News','Contact', 'Footer'],
     navigationPosition: 'right',
 
   });
@@ -60,8 +60,6 @@ $(function(){
   const month = ('0' + (date.getMonth() + 1)).slice(-2);
   const day = ('0' + date.getDate()).slice(-2);
   const dateStr = year + '.' + month + '.' + day;
-
-  console.log(dateStr);
 
   document.getElementById('today').innerHTML = dateStr;
 

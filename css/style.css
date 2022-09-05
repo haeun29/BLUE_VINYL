@@ -736,25 +736,23 @@ padding-bottom: 20px;
 
 
 
+#section6 { 
+  width: 100%;
+  padding: 50px;
+  border-top: 1px solid rgba(238, 238, 238, 0.5);
+}
+
+#section6 footer p { 
+  line-height: 200%;
+  font-size: 22px;
+  color: #eee;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 100;
+  letter-spacing: 0.1em;
+}
 
 
 
 
 
 
-/* slider arrow */
-/* .fp-controlArrow.fp-prev{
-  left: 50px;
-} */
-/* 
-.fp-controlArrow.fp-next{
-  right: 50px;
-} */
-
-
-/* #section3 { overflow: hidden;} */
-
-
-/* .nav-up { 
-  top: -100px;
-} */

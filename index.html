@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blue Vinyl</title>
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+  
+  <!-- pc.ver 1101px 부터 (큰화면)-->
+  <link 
+    rel="stylesheet" 
+    href="./css/style.css"
+    media="screen and (min-width : 1101px)"
+    >
+
+  <!-- mobile.ver 1100px 부터 (모바일화면)-->
+  <link 
+    rel="stylesheet" 
+    href="./css/style-m.css"
+    media="screen and (max-width: 1100px)"
+    >
+
+
+
+</head>
+
+
+<body>
+
+<header>
+
+    
+    <h1 class="logo">
+      <a href="#"><img 
+        src="./images/logo.png" alt="블루바이닐 로고">
+    </a>
+    </h1>
+    
+    <button class="toggle-btn">
+      <a href="#"><i class="bi bi-list"></i></a>
+    </button>
+    
+
+    <nav id="menu">
+      <ul>
+        <li><a href="#section1">BLUE VINYL</a></li>
+
+        <li><a href="#section2">ARTIST</a></li>
+        <li><a href="#section3">RELEASES</a></li>
+        <li><a href="#section4">NEWS</a></li>
+
+      </ul>
+    
+  </nav>
+  
+</header>
+
+
+
+  <main>
+
+
+
+
+      <!-- blue vinyl -->
+      <section id="section1">
+        <div class="bg">
+          <video muted autoplay>
+            <source src="./images/opening.mp4">
+          </video>
+      
+          <div class="text">
+            BLUE <br> VINYL
+          </div>
+        </div>
+      </section> <!--section1 end-->
+
+
+
+    <!-- artist / section2 -->
+    <section id="section2">
+     
+        <!-- <h1>ARTIST</h1>      -->
+
+        <ul class="slide-container">
+
+          <li class="flex-slide yerin">
+            <div class="a-info">
+              <h2>YERIN BAEK</h2>
+              <p>대한민국의 가수. 밴드 The Volunteers의 프론트맨이자 싱어송라이터이다. 어릴 때부터 갖춰진 탄탄한 기본기와 발성, 독보적인 음색으로 주목받았고 거의 모든 장르를 자신만의 감성으로 감쌀 정도로 가창력과 곡 해석이 뛰어나다는 평을 받고 있다.</p>
+            </div>
+          </li>
+
+          <li class="flex-slide TVT">
+            <div class="a-info">
+              <h2>THE VOLUNTEERS</h2>
+              <p>대한민국의 락밴드.
+                백예린(보컬, 기타) / 고형석(베이스) / Jonny(리더, 기타) / 김치헌(드럼)으로 구성된 록 밴드이다. 2017년도에 결성되어 자작곡을 사운드클라우드와 유튜브에 업로드하면서 활동하기 시작했다. 백예린의 독립 레이블 블루바이닐 소속이다.</p>
+            </div>
+          </li>
+
+          <li class="flex-slide cloud">
+            <div class="a-info">
+              <h2>CLOUD</h2>
+              <p>대한민국의 프로듀서이자 싱어송라이터. 2014년부터 바이바이배드맨과 치즈 활동과 더불어 다른 뮤지션들과의 작업도 활발했는데 이때 나온 곡들이 알려지면서 점점 프로듀서로의 구름의 이름을 알리는 계기가 되었다.</p>
+            </div>
+          </li>
+
+        </ul>
+   
+    </section> <!--section2 end-->
+
+
+
+    <!-- RELEASES -->
+    <div class="section" id="section3">
+
+     
+        <div class="modal">
+          <h2>Listen To Music</h2>
+          <ul class="modal-list">
+            <li><a href="#" class="modal-a"><img src="./images/modal-list/melon.png" alt="멜론"><span>멜론</span></a></li>
+            <li><a href="#"><img src="./images/modal-list/flo.png" alt="FLO"><span>FLO</span></a></li>
+            <li><a href="#"><img src="./images/modal-list/genie.png" alt="지니"><span>지니</span></a></li>
+            <li><a href="#"><img src="./images/modal-list/bugs.png" alt="벅스"><span>벅스</span></a></li>
+            <li><a href="#"><img src="./images/modal-list/vibe.png" alt="VIBE"><span>VIBE</span></a></li>
+            <li><a href="#"><img src="./images/modal-list/applemusic.png" alt="APPLE MUSIC"><span>APPLE MUSIC</span></a></li>
+            <li><a href="#"><img src="./images/modal-list/spotify.png" alt="SPOTIFY"><span>SPOTIFY</span></a></li>
+            <li><a href="#"><img src="./images/modal-list/amazon.png" alt="AMAZON MUSIC"><span>AMAZON MUSIC</span></a></li>
+          </ul>
+  
+          <button class="close-btn">
+            <a href="#"><i class="bi bi-x-circle"></i></a>
+          </button>
+
+        </div> <!--modal end-->
+     
+     
+
+
+
+
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+             <ul class="album">
+              <li>
+                <img src="./images/RELEASES/a-1.jpg" alt="0310 (Sleep Mix)">
+                <p> 0310 (Sleep Mix) <br> 
+                  <span> 2022.08.24</span></p>
+              </li>
+              <li>
+                <img src="./images/RELEASES/a-2.jpg" alt="New Plant">
+                <p> New Plant<br> 
+                 <span>2022.07.12</span> </p>
+              </li>
+              <li>
+                <img src="./images/RELEASES/a-3.jpg" alt="물고기">
+                <p> 물고기 <br> 
+                 <span> 2022.05.24</span></p>
+              </li>
+              <li>
+                <img src="./images/RELEASES/a-4.jpg" alt="너머 (The Other Side)">
+                <p> 너머 (The Other Side) <br> 
+                  <span>2022.03.10</span></p>
+              </li>
+              <li>
+                <img src="./images/RELEASES/a-5.jpg" alt="선물">
+                <p> 선물 <br>
+                  <span>2021.09.10</span>  </p>
+              </li>
+              <li>
+                <img src="./images/RELEASES/a-6.jpg" alt="The Volunteers">
+                <p> The Volunteers <br> 
+                  <span>2021.05.27</span> </p>
+              </li>
+              <li>
+                <img src="./images/RELEASES/a-7.jpg" alt="tellusboutyourself Remixes">
+                <p>tellusboutyourself Remixes<br>
+                  <span>2021.02.16</span></p>
+              </li>
+              <li>
+                <img src="./images/RELEASES/a-8.jpg" alt="tellusboutyourself">
+                <p> tellusboutyourself<br> 
+                  <span>2020.12.10</span> </p>
+              </li>
+            </ul>
+          </div> <!--1번째 swiper-slide-->
+
+
+            <div class="swiper-slide">  
+              <ul class="album">
+                <li>
+                  <img src="./images/RELEASES/a-9.jpg" alt="0310 (Sleep Mix)">
+                  <p> 많이 과장해서 하는 말 <br> 
+                    <span>2021.03.04</span> </p>
+                </li>
+                <li>
+                  <img src="./images/RELEASES/a-10.jpg" alt="사랑의 불시착 OST Part 4">
+                  <p> 사랑의 불시착 OST Part 4 <br> 
+                    <span>2020.01.12</span> </p>
+                </li>
+                <li>
+                  <img src="./images/RELEASES/a-11.jpg" alt="Every letter I sent you.">
+                  <p>Every letter I sent you.<br> 
+                    <span>2019.12.10</span> </p>
+                </li>
+                <li>
+                  <img src="./images/RELEASES/a-12.jpg" alt="온스테이지 디깅클럽서울 THEME 01">
+                  <p>온스테이지 디깅클럽서울 THEME 01<br> 
+                    <span>2019.06.19</span></p>
+                </li>
+                <li>
+                  <img src="./images/RELEASES/a-13.jpg" alt="A-TEEN2 Part 1">
+                  <p> A-TEEN2 Part 1<br> 
+                    <span>2019.05.09</span></p>
+                </li>
+                <li>
+                  <img src="./images/RELEASES/a-14.jpg" alt="Our love is great">
+                  <p> Our love is great<br>
+                    <span>2019.03.18</span></p>
+                </li>
+                <li>
+                  <img src="./images/RELEASES/a-15.jpg" alt="시카고 타자기 OST Part 2">
+                  <p> 시카고 타자기 OST Part 2 <br>
+                    <span>2017.04.15</span></p>
+                </li>
+                <li>
+                  <img src="./images/RELEASES/a-16.jpg" alt="Love you on Christmas">
+                  <p> Love you on Christmas<br> 
+                    <span>2016.12.07</span></p>
+                </li>
+              </ul>
+           </div> <!--2번째 swiper-slide-->
+
+
+         </div> <!--swiper-wrapper-->
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+      </div> <!--swiper mySwiper-->
+
+    </div> <!--section3 end-->
+
+
+
+    <!-- NEWS -->
+    <div class="section" id="section4">
+      
+   
+            <div class="news">
+              <h1>Blue Vinyl News</h1>
+              <p id="today"></p>
+              <hr class="newline">
+              <hr class="newline2">
+      
+      
+              <div class="row-container">
+                <div class="row row1">
+                  <h2>Yerin Baek and the volunters are in Busan</h2>
+                  <img src="./images/row1.jpg" alt="">
+                  <p>백예린과 The Volunteers가 2022 부산 국제 록페스티벌에 출연합니다. TVT는 10월 1일, 백예린은 10월 2일에 라인업을 올렸습니다. 자세한 내용은 2022 부산국제록페스티벌 홈페이지에서 확인하세요!</p>
+                  <h3>Online Sales Guide This is TVT Club' Official MD</h3>
+                  <a 
+                  target="_blank"
+                  href="https://marpple.shop/kr/tvt?page=0"><img src="./images/row2.jpg" alt="TVT club" ></a>
+                </div> <!--row1-->
+      
+                <div class="row row2">
+                  <img src="./images/row3.jpg" alt="">
+                  <h2>구름이 구름했다</h2>
+                  <p>오늘 하루는 구름의 커버음원 들으면서 마무리하세요. '구름' 유튜브 채널에서 풀버전 감상하실 수 있습니다. </p>
+                  <hr>
+                  <h3>“Someday we'll stand here by the sun”</h3>
+                  <img src="./images/row4.jpg" alt="">
+                  <p>
+                    블루바이닐 플레이리스트 세 번째! 여름의 끝자락에서 즐기는 'Summer Playlist'입니다. 바다로 떠나는 차 안, 친구들과 함께 누운 해변, 좋아하는 드라마를 정주행하며 홀로 보내는 여름 밤 각자의 여름의 순간을 더욱 반짝이게 해줄 음악들을 지금 바로 만나보세요!</p>
+                    
+                    <button class="spotify">
+                      <a href="https://open.spotify.com/playlist/0V17aeUyVGVNnh5m1WIRnc?si=eafaf2ed7ddc4965&nd=1">
+                        <i class="bi bi-spotify"></i>
+                         <span> Listen on<br><strong>Spotify</strong></span> </a>
+                      </button>
+      
+                </div> <!--row2-->
+      
+      
+                <div class="row row3">
+                  <h2>Baek Yerin's "0310"</h2>
+                  <img src="./images/row5.jpg" alt="">
+                  <p>VIBE와 함께 한 백예린의 '0310' 슬립 믹스 음원이 공개되었습니다. 수면 음악으로 재탄생한 '0310 (Sleep Mix)' 음원을 네이버 VIBE에서 지금 바로 만나보세요!</p>
+                  <h3>QUICK NEWS </h3>
+
+                  <div class="sns">
+                    <a 
+                    target="_blank"
+                    href="https://www.instagram.com/bluevinyl.official/"><img src="./images/sns-blue.svg" alt="블루바이닐 인스타그램"></a>
+                    <a 
+                    target="_blank"
+                    href="https://www.instagram.com/yerin_the_genuine/"><img src="./images/sns-yr.svg" alt="백예린 인스타그램"></a>
+                    <a 
+                    target="_blank"
+                    href="https://www.instagram.com/cloudkoh_/"><img src="./images/sns-cloud.svg" alt="구름 인스타그램"></a>
+                    <a 
+                    target="_blank"
+                    href="https://www.instagram.com/the_volunteers.com_/"><img src="./images/sns-tvt.svg" alt="TVT 인스타그램"></a>
+                  </div>
+
+                  <h4>This is TVT Club Back Stage</h4>
+                  <iframe src="https://www.youtube.com/embed/vgbKNFbZxeA?start=115" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div> <!--row3-->
+              </div> <!--row-container-->
+            </div> <!--new-container-->
+      
+       
+
+    </div> <!--section 4 end | news-->
+
+
+
+
+    <div class="section" id="section5">
+
+      <div class="wrapper">
+
+        <div class="contact">
+          <h1>CONTACT </h1>
+            <div class="text-line">
+              <a 
+              target="_blank"
+              href="http://www.msbsound.com/contacts/"><p>Bluevinyl.kr</p></a>
+            </div>
+        </div> <!--contact-text-->
+              
+        <div class="lp"></div><!--lp-wrapper-->
+
+          <div class="vinyl animate-slide">
+            <img src="./images/contact-vinyl.png" alt="vinyl"> 
+          </div>
+
+      </div> <!--전체 wrap-->
+    </div> <!--section5 end -->
+
+
+
+
+
+      <!-- section6 -footer -->
+      <div class="section fp-auto-height" id="section6" >
+       
+        <footer>
+          <p>블루바이닐 | 대표이사 : 이예든 | 주소 : 서울 특별시 마포구 서교동 와우산로</p>
+          <p>Copyright 2022. BlueVinyl All rights reserved. </p>
+        </footer>
+     
+      </div>
+
+
+
+
+
+    </main> <!--#fullpage-->
+
+ 
+
+
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+  <!--제이쿼리 -->
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+
+
+<!-- 풀스크린 -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.min.js'></script>
+
+<script  src="./js/script.js"></script>
+
+</body>
+</html>

@@ -1,5 +1,6 @@
 
 
+
 $(function () {
   // 아티스트 p 태그 호버 
   
@@ -56,19 +57,27 @@ $(function(){
 
 
 
+
 //modal
 
 
 $(function(){
     $('#section3 .album li').click(function(){
       $('.modal').addClass('on');
+      // $("body").addClass('notScroll');
+ 
     });
 
     $('.modal .close-btn').click(function(){
       $('.modal').removeClass('on');
+      return false;
     });
-    
 });
+
+
+
+
+
 
 // 메뉴 클릭시 부드럽게
 
@@ -87,6 +96,11 @@ $(function(){
 $(function(){
   $('.toggle-btn').click(function(){
     $('#menu').toggleClass('on');
+    return false;
+  });
+  $('#menu li a').click(function(){
+    $('#menu').removeClass('on');
+    return false;
   });
 })
 

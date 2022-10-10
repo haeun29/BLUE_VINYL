@@ -21,7 +21,8 @@
 
 ## 📷 대표사진
 
-![blue_vinyl](https://user-images.githubusercontent.com/105402303/187850691-fc314702-52d6-4549-b0ad-ea16283a2a7e.jpg)
+![mookUp](https://user-images.githubusercontent.com/105402303/194911848-aa661fe7-339a-4cd6-84a4-5b068c0d1c6c.jpg)
+
 
 <br>
 
